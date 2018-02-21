@@ -1,0 +1,9 @@
+[user]
+        name = mglolmos
+        email = mgl.olmos@gmail.com
+[includeIf "gitdir:~/projects/schibsted/"]
+        path = ~/projects/schibsted/.gitconfig
+
+[alias]
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        pll = !sh -c 'git fetch --all --tags && git pull --all && git status'
