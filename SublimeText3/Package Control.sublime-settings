@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"JSON Key-Value",
-		"Package Control"
+		"Package Control",
+		"Vue Syntax Highlight"
 	]
 }
