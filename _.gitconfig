@@ -6,4 +6,5 @@
 
 [alias]
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit
+        lgfp = !git lg --first-parent
         pll = !sh -c 'git fetch --all --tags && git pull --all && git status'
