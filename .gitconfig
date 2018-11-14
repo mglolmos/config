@@ -1,10 +1,10 @@
 [user]
         name = mglolmos
         email = mgl.olmos@gmail.com
-[includeIf "gitdir:~/projects/schibsted/"]
-        path = ~/projects/schibsted/.gitconfig
+[includeIf "gitdir:~/schcode/"]
+        path = ~/schcode/.gitconfig
 
 [alias]
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit
         lgfp = !git lg --first-parent
-        pll = !sh -c 'git fetch --all --tags && git pull --all && git status'
+        pll = !sh -c 'git fetch --all --tags --prune --prune-tags && git pull --all && git status'
