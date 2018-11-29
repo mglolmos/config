@@ -4,3 +4,5 @@ brew install vim
 brew install git
 brew install bash-completion
 brew install tig
+brew install jq
+
