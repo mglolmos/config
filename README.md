@@ -5,6 +5,6 @@
 
 ## IntelliJ IDEA
 - Color of:
--- Identifier under caret: background -> `#3C723D`
--- Identifier under caret (write): background -> `#7C483A`
+  - Identifier under caret: background -> `#3C723D`
+  - Identifier under caret (write): background -> `#7C483A`
 
