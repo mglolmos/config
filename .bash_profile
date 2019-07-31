@@ -12,8 +12,7 @@ echo "🖥   Hostname"
 hostname
 
 # prompt
-PS1='$([ $? == 0 ] && echo "\[\e[32m\]●\[\e[m\]" || echo "\[\e[31m\]●\[\e[m\]") \[\e[32m\]\u\[\e[m\]\[\e[36m\] @ \w \[\e[m\]\[\e[32m\]$(__git_ps1)\n└─ \$ ▶\[\e[m\] '
-
+PS1='$([ $? == 0 ] && echo "\[\e[32m\]●\[\e[m\]" || echo "\[\e[31m\](*)\[\e[m\]") \[\e[32m\]\u\[\e[m\] \[\e[36m\]\w\[\e[m\] \[\e[32m\]$(__git_ps1)\n└─ \$ ▶\[\e[m\]'
 # add pem keys
 source .custom_scripts/add_pem_keys.sh
 
